@@ -7,7 +7,11 @@ import nltk
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 
-nltk.download('punkt')
+# Download NLTK data only if needed
+try:
+    nltk.data.find('tokenizers/punkt')
+except LookupError:
+    nltk.download('punkt', quiet=True)
 
 # 1️⃣ Load intents
 with open('intents.json') as file:
@@ -34,11 +38,16 @@ clf.fit(X, y)
 
 # 4️⃣ Predict intent
 def predict_intent(text):
+    """Predict the intent of user input text."""
     X_test = vectorizer.transform([text])
     pred_tag = clf.predict(X_test)[0]
     return pred_tag
 
 # 5️⃣ Get response
 def get_response(user_input):
+    """Generate a response based on user input."""
+    if not user_input or not user_input.strip():
+        return "Please say something!"
+
     intent = predict_intent(user_input)
     return random.choice(responses[intent])
