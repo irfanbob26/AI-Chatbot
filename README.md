@@ -55,6 +55,7 @@ To get started with the **AI-Chatbot**, follow these steps:
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    pip install -r requirements.txt
+   python -m nltk.downloader punkt punkt_tab
    ```
 
 3. **Run the Application**:
