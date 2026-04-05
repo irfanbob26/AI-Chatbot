@@ -10,7 +10,7 @@ from sklearn.naive_bayes import MultinomialNB
 nltk.download('punkt')
 
 # 1️⃣ Load intents
-with open('intents.json') as file:
+with open('intents.json', encoding="utf-8") as file:
     data = json.load(file)
 
 # 2️⃣ Prepare training data
@@ -33,7 +33,7 @@ clf = MultinomialNB()
 clf.fit(X, y)
 
 # 4️⃣ Predict intent
-def predict_intent(text):
+def predict_intent(text: str):
     X_test = vectorizer.transform([text])
     pred_tag = clf.predict(X_test)[0]
     return pred_tag
